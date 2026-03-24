@@ -1,0 +1,97 @@
+{
+  "project": "Porto Engineering Sync — Kubernetes Migration",
+  "source_date": "2026-03-20",
+  "extracted_on": "2026-03-24",
+  "action_items": [
+    {
+      "id": "AI-001",
+      "title": "Fix PostgreSQL connection pooling config to reduce replication lag",
+      "description": "Replication lag is hitting 800ms under load, exceeding the 200ms threshold. Revisit connection pooling configuration. Coordinate with DBA team (see AI-004).",
+      "assignee": "Miguel",
+      "due_date": "2026-03-26",
+      "priority": "P0",
+      "labels": ["meeting-action", "auto-extracted", "migration", "database"],
+      "source_evidence": "Miguel: 'I think we need to revisit the connection pooling config. I can have a fix ready by next Wednesday'"
+    },
+    {
+      "id": "AI-002",
+      "title": "Set up mandatory resource tagging policies in Terraform",
+      "description": "Team has lost 3 test environments this week due to untagged instances. AWS budget is 40% over monthly allocation. Implement mandatory tagging to prevent orphaned resources.",
+      "assignee": "Pedro",
+      "due_date": "2026-03-27",
+      "priority": "P1",
+      "labels": ["meeting-action", "auto-extracted", "infrastructure", "cost-control"],
+      "source_evidence": "Pedro: 'I'll set up mandatory tagging policies in Terraform by Friday'"
+    },
+    {
+      "id": "AI-003",
+      "title": "Draft rollback runbook with demo-safe fallback section",
+      "description": "No rollback automation exists for production migration. Manual recovery could take hours. Must include a 'demo-safe fallback' section: if new cluster isn't ready by April 10 Vodafone demo, the old cluster must run the demo transparently.",
+      "assignee": "Pedro",
+      "due_date": "2026-04-03",
+      "priority": "P0",
+      "labels": ["meeting-action", "auto-extracted", "migration", "disaster-recovery"],
+      "source_evidence": "Sofia: 'can you also draft a rollback runbook?' + 'add that to the rollback runbook — a section on demo-safe fallback'"
+    },
+    {
+      "id": "AI-004",
+      "title": "Loop in DBA team on PostgreSQL replication issue",
+      "description": "Sofia instructed Miguel not to solve the replication lag issue alone. Coordinate with DBA team for guidance on the 800ms lag under load.",
+      "assignee": "Miguel",
+      "due_date": "TBD",
+      "priority": "P1",
+      "labels": ["meeting-action", "auto-extracted", "database", "collaboration"],
+      "source_evidence": "Sofia: 'loop in the DBA team on the replication issue, don't try to solve it alone'"
+    },
+    {
+      "id": "AI-005",
+      "title": "Update migration timeline document",
+      "description": "Migration is behind the original end-of-March schedule. Timeline document needs to reflect current status and revised dates.",
+      "assignee": "Miguel",
+      "due_date": "TBD",
+      "priority": "P2",
+      "labels": ["meeting-action", "auto-extracted", "migration", "documentation"],
+      "source_evidence": "Miguel: 'Should I also update the migration timeline doc?' — Sofia: 'Yes please'"
+    },
+    {
+      "id": "AI-006",
+      "title": "Create regression test suite for Kubernetes migration",
+      "description": "First version of a regression test suite specifically targeting the migration. Coordinate with Miguel for staging dataset access (see AI-007).",
+      "assignee": "Ana",
+      "due_date": "2026-04-03",
+      "priority": "P0",
+      "labels": ["meeting-action", "auto-extracted", "migration", "testing"],
+      "source_evidence": "Sofia: 'we need a regression test suite specifically for the migration' — Ana: 'I'll have a first version by April 3rd'"
+    },
+    {
+      "id": "AI-007",
+      "title": "Provide Ana access to staging dataset for test data",
+      "description": "Ana needs access to the staging dataset to build the regression test suite. Miguel to grant access.",
+      "assignee": "Miguel",
+      "due_date": "TBD",
+      "priority": "P2",
+      "labels": ["meeting-action", "auto-extracted", "testing", "access"],
+      "source_evidence": "Sofia: 'Miguel, make sure Ana has access to the staging dataset'"
+    },
+    {
+      "id": "AI-008",
+      "title": "Clean up 23 Sonar code smells in migration branch",
+      "description": "Sonar scan flagged 23 new code smells in the migration branch. Not critical but should be resolved before merging to main. Lower priority than regression suite.",
+      "assignee": "UNASSIGNED",
+      "due_date": "TBD",
+      "priority": "P3",
+      "labels": ["meeting-action", "auto-extracted", "migration", "code-quality"],
+      "source_evidence": "Ana: 'the Sonar scan flagged 23 new code smells in the migration branch' — Sofia: 'Add it to the list'"
+    },
+    {
+      "id": "AI-009",
+      "title": "Send calendar invite for Thursday progress check",
+      "description": "Weekly regroup to check migration progress ahead of April 10 Vodafone demo deadline.",
+      "assignee": "Sofia",
+      "due_date": "TBD",
+      "priority": "P2",
+      "labels": ["meeting-action", "auto-extracted", "coordination"],
+      "source_evidence": "Sofia: 'Let's regroup next Thursday to check progress. I'll send a calendar invite'"
+    }
+  ]
+}
