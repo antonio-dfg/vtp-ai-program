@@ -1,5 +1,6 @@
 # Visma Tech Portugal AI Program (Invicta-One)
-**Goal:** Transition from "Manual Practitioner" to "AI Orchestrator".
+
+<img width="987" height="382" alt="image" src="https://github.com/user-attachments/assets/3ad3e82e-ff2a-4516-a91b-6a974a1057bc" />
 
 ## Phase 1 - The Augmentation Era
 Personal productivity and individual task automation.
