@@ -2,6 +2,8 @@
 
 <img width="987" height="382" alt="image" src="https://github.com/user-attachments/assets/3ad3e82e-ff2a-4516-a91b-6a974a1057bc" />
 
+**Goal of this program:** Transition of the Visma Portugal Software Engineers from "Manual Practitioners" to "AI Orchestrators" 🤖
+
 ## Phase 1 - The Augmentation Era
 Personal productivity and individual task automation.
 
