@@ -7,5 +7,5 @@ Personal productivity and individual task automation.
 ## Phase 2 - The Agentic Shift
 Creating and training custom, role-specific agents.
 
-## The Autonomous Frontier
+## Phase 3 - The Autonomous Frontier
 Managing ecosystems of autonomous agents and cross-functional AI strategy.
