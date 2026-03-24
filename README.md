@@ -20,8 +20,8 @@ Personal productivity and individual task automation.
 
 ## Trial 3 - The "Holocron" Synthesis (Chain-of-Thought and Data Extraction)
 
-# Phase 2 - The Agentic Shift
+# Phase 2 - The Agentic Shift 🔜
 Creating and training custom, role-specific agents.
 
-# Phase 3 - The Autonomous Frontier
+# Phase 3 - The Autonomous Frontier 🔜
 Managing ecosystems of autonomous agents and cross-functional AI strategy.
