@@ -14,17 +14,11 @@
 # Phase 1 - The Augmentation Era
 Personal productivity and individual task automation.
 
-## Trial 1 - The "Kessel Run"
+## Trial 1 - The "Kessel Run" (Few-Shot Prompting and Formatting)
 
-**Focus:** Few-Shot Prompting and Formatting
+## Trial 2 - The "Architect" Constraint (Precision and Negative Prompting)
 
-## Trial 2 - The "Architect" Constraint
-
-**Focus:** Precision and Negative Prompting
-
-## Trial 3 - The "Holocron" Synthesis
-
-**Focus:** Chain-of-Thought and Data Extraction
+## Trial 3 - The "Holocron" Synthesis (Chain-of-Thought and Data Extraction)
 
 # Phase 2 - The Agentic Shift
 Creating and training custom, role-specific agents.
