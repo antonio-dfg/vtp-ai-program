@@ -1,11 +1,9 @@
 # Trial 1: The "Kessel Run" — Few-Shot Prompting & Sarcasm Detection
 
-> Focus: Few-Shot Prompting and Formatting  
-> Goal: Move from "Padawan" (Basic User) to "Knight" (Prompt Engineer)
-
 ## Objective
 
 Categorize 10 disorganized customer feedback comments using few-shot prompting.
+
 The AI must correctly detect sarcasm and classify based on **intended** sentiment,
 not literal word choice.
 
