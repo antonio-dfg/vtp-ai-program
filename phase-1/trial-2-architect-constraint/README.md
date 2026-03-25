@@ -1,8 +1,5 @@
 # Trial 2: The "Architect" Constraint — Precision & Negative Prompting
 
-> Focus: Precision and Negative Prompting
-> Goal: Achieve a professional tone without relying on corporate clichés
-
 ## Objective
 
 Draft a 300-word proposal for a new project in Porto using a persona (Senior Urban Planner)
