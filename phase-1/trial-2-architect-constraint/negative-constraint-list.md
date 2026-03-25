@@ -1,7 +1,12 @@
 # Negative Constraint List — Living Document
 
+> **Version: v1.0** — 15 banned words | Last updated: 2026-03-24
+>
 > This is the team's shared list of banned corporate buzzwords.
 > Anyone can propose additions by submitting a PR.
+>
+> **Sync reminder:** When updating this list, also update the NEGATIVE CONSTRAINT LIST
+> table in `system-prompt.md` (Part 1 — The Architect's Filter) and bump the version number in both files.
 
 ## Current Banned Words
 

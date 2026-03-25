@@ -10,7 +10,10 @@
       "assignee": "Miguel",
       "due_date": "2026-03-26",
       "priority": "P0",
+      "status": "To Do",
       "labels": ["meeting-action", "auto-extracted", "migration", "database"],
+      "dependencies": ["AI-004"],
+      "confidence": "High",
       "source_evidence": "Miguel: 'I think we need to revisit the connection pooling config. I can have a fix ready by next Wednesday'"
     },
     {
@@ -20,7 +23,10 @@
       "assignee": "Pedro",
       "due_date": "2026-03-27",
       "priority": "P1",
+      "status": "To Do",
       "labels": ["meeting-action", "auto-extracted", "infrastructure", "cost-control"],
+      "dependencies": [],
+      "confidence": "High",
       "source_evidence": "Pedro: 'I'll set up mandatory tagging policies in Terraform by Friday'"
     },
     {
@@ -30,7 +36,10 @@
       "assignee": "Pedro",
       "due_date": "2026-04-03",
       "priority": "P0",
+      "status": "To Do",
       "labels": ["meeting-action", "auto-extracted", "migration", "disaster-recovery"],
+      "dependencies": [],
+      "confidence": "High",
       "source_evidence": "Sofia: 'can you also draft a rollback runbook?' + 'add that to the rollback runbook — a section on demo-safe fallback'"
     },
     {
@@ -40,7 +49,10 @@
       "assignee": "Miguel",
       "due_date": "TBD",
       "priority": "P1",
+      "status": "To Do",
       "labels": ["meeting-action", "auto-extracted", "database", "collaboration"],
+      "dependencies": ["AI-001"],
+      "confidence": "High",
       "source_evidence": "Sofia: 'loop in the DBA team on the replication issue, don't try to solve it alone'"
     },
     {
@@ -50,7 +62,10 @@
       "assignee": "Miguel",
       "due_date": "TBD",
       "priority": "P2",
+      "status": "To Do",
       "labels": ["meeting-action", "auto-extracted", "migration", "documentation"],
+      "dependencies": [],
+      "confidence": "High",
       "source_evidence": "Miguel: 'Should I also update the migration timeline doc?' — Sofia: 'Yes please'"
     },
     {
@@ -60,7 +75,10 @@
       "assignee": "Ana",
       "due_date": "2026-04-03",
       "priority": "P0",
+      "status": "To Do",
       "labels": ["meeting-action", "auto-extracted", "migration", "testing"],
+      "dependencies": ["AI-007"],
+      "confidence": "High",
       "source_evidence": "Sofia: 'we need a regression test suite specifically for the migration' — Ana: 'I'll have a first version by April 3rd'"
     },
     {
@@ -70,7 +88,10 @@
       "assignee": "Miguel",
       "due_date": "TBD",
       "priority": "P2",
+      "status": "To Do",
       "labels": ["meeting-action", "auto-extracted", "testing", "access"],
+      "dependencies": [],
+      "confidence": "High",
       "source_evidence": "Sofia: 'Miguel, make sure Ana has access to the staging dataset'"
     },
     {
@@ -80,7 +101,10 @@
       "assignee": "UNASSIGNED",
       "due_date": "TBD",
       "priority": "P3",
+      "status": "To Do",
       "labels": ["meeting-action", "auto-extracted", "migration", "code-quality"],
+      "dependencies": [],
+      "confidence": "Medium",
       "source_evidence": "Ana: 'the Sonar scan flagged 23 new code smells in the migration branch' — Sofia: 'Add it to the list'"
     },
     {
@@ -90,7 +114,10 @@
       "assignee": "Sofia",
       "due_date": "TBD",
       "priority": "P2",
+      "status": "To Do",
       "labels": ["meeting-action", "auto-extracted", "coordination"],
+      "dependencies": [],
+      "confidence": "High",
       "source_evidence": "Sofia: 'Let's regroup next Thursday to check progress. I'll send a calendar invite'"
     }
   ]
