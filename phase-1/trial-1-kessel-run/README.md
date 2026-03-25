@@ -18,9 +18,9 @@ not literal word choice.
 
 ## Try it yourself
 
-1. Copy the contents of `system-prompt.md` into your LLM's system prompt field
+1. Copy the contents of `system-prompt.md` into your LLM's system prompt field or add it to your message
 2. Paste the comments from `sample-input.md` as the user message or use them as inspiration
-3. Verify the output matches the expected results (`expected-output.md`)
+3. Verify the output against the expected results (`expected-output.md`)
 
 ## Key Techniques Used
 

@@ -69,6 +69,12 @@ Comment: "The onboarding documentation is clear and well-organized, but it could
 → Sentiment: Mixed | Department: Product | Urgency: Medium
 → Reasoning: Positive base ("clear and well-organized") with constructive criticism ("could really use more examples"). Not sarcasm — the praise is genuine, but the gap identified has practical impact on developer productivity.
 
+**Example 4 — Sarcastic (Negative intent):**
+Comment: "Oh, I just love when the elevator is out of service on a Monday morning. Really sets the tone for the week!"
+→ Sentiment: Negative | Department: Facilities | Urgency: Medium
+→ Reasoning: SARCASM detected — "just love" and "Really sets the tone" are ironic.
+  The experience (broken elevator) is objectively negative. Confidence: High (95%).
+
 ### Output Format
 
 1. Present results in a Markdown table
@@ -84,5 +90,7 @@ After generating the table, re-read each comment and confirm:
 - Urgency reflects business impact, not just emotional intensity
 - Confidence scores align with the calibration thresholds above
 - Always explain your classification, do not make assumptions
+- Perform a final scan and append:
+"✅ Verification: [N] sarcastic comments detected!"
 
 --- END BLOCK ---
