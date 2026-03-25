@@ -61,3 +61,6 @@ Creating and training custom, role-specific agents.
 
 # Phase 3 - The Autonomous Frontier 🔜
 Managing ecosystems of autonomous agents and cross-functional AI strategy.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5e3bb578-697e-4706-a978-c21280c2fd76" />
+
