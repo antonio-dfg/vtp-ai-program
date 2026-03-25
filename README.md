@@ -34,6 +34,16 @@ flag it as a "Negative" sentiment despite the word "loved."
 
 ## Trial 2 - The "Architect" Constraint (Precision and Negative Prompting)
 
+**The Logic Mindset:** Participants must develop **architectural foresight** and **deterministic reasoning**. You are expected to move beyond simple troubleshooting to design a logic-gate system that can evaluate its own actions against safety protocols before execution.
+
+**The Task:** Ask the AI to draft a 300-word proposal for a new project in Porto (e.g., a green tech hub in Campanhã).
+
+**The Challenge:**
+- You must use a Persona (e.g., "Act as a Senior Urban Planner").
+- **Constraint:** You must use "Negative Prompting". The output cannot contain the words: smart, sustainable, innovative, synergy, or future.
+
+**Goal:** Achieve a professional tone without relying on corporate clichés.
+
 ## Trial 3 - The "Holocron" Synthesis (Chain-of-Thought and Data Extraction)
 
 # Phase 2 - The Agentic Shift 🔜
