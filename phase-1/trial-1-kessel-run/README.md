@@ -24,7 +24,7 @@ not literal word choice.
 
 ## Key Techniques Used
 
-- **Few-shot examples**: 2 pre-classified examples to set the pattern
+- **Few-shot examples**: Pre-classified examples to set the pattern
 - **Explicit sarcasm detection rules**: Forces the model to check for tone/content contradictions
 - **Reasoning column**: Makes logic transparent and auditable
 - **Sarcasm Audit section**: Separate verification block with confidence scores
