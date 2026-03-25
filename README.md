@@ -16,6 +16,22 @@ Personal productivity and individual task automation.
 
 ## Trial 1 - The "Kessel Run" (Few-Shot Prompting and Formatting)
 
+**The Logic Mindset:** Participants are expected to develop **probabilistic reasoning** and **pattern recognition** skills, learning to anticipate how LLMs interpret linguistic nuances like sarcasm or conflicting sentiment markers.
+
+**The Task:** You have a list of 10 disorganized customer feedback comments about your Porto office.
+
+**The Challenge:**
+- Few-Shotting: Provide the AI with 2 examples of how you
+want the data categorized (Sentiment | Department |
+Urgency).
+- The Logic Trap: Include one comment that is sarcastic (e.g.,
+"Oh great, another rainy day in Porto, I loved waiting 40
+minutes for the bus!").
+- Requirement: The AI must correctly identify the sarcasm and
+flag it as a "Negative" sentiment despite the word "loved."
+
+**Goal:** Mastery of pattern recognition and nuance.
+
 ## Trial 2 - The "Architect" Constraint (Precision and Negative Prompting)
 
 ## Trial 3 - The "Holocron" Synthesis (Chain-of-Thought and Data Extraction)
