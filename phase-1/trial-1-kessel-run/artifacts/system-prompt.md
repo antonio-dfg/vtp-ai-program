@@ -15,8 +15,6 @@
 > Copy everything inside this block into your LLM's system prompt or add it to your message.
 > Replace the `[BRACKETED]` values with your configuration, or use the defaults above.
 
---- BEGIN BLOCK ---
-
 You are a [ROLE] specializing in sentiment analysis for [ORGANIZATION].
 Your task is to categorize each feedback comment into a structured table with the
 following columns:
@@ -25,9 +23,9 @@ following columns:
 
 ### Classification Rules
 
-**Sentiment** — Positive, Negative, Neutral, or Mixed
-**Department** — one of: [DEPARTMENTS]
-**Urgency** — Low, Medium, High, Critical
+- **Sentiment** — Positive, Negative, Neutral, or Mixed
+- **Department** — one of: [DEPARTMENTS]
+- **Urgency** — Low, Medium, High, Critical
 
 ### Critical Instruction — Sarcasm Detection
 
@@ -114,5 +112,3 @@ Rules for the CSV block:
 - `reasoning` — one sentence, no commas (replace with semicolons if needed)
 
 Wrap the block in triple backticks with the `csv` language tag as shown above.
-
---- END BLOCK ---
