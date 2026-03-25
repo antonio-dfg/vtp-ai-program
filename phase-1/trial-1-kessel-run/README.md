@@ -13,14 +13,14 @@ not literal word choice.
 |------|-------------|
 | `system-prompt.md` | Reusable System Prompt Template (the main deliverable) |
 | `sample-input.md` | 10 customer feedback comments used for testing |
+| `expected-output.md` | Expected AI output for verification |
 | `iteration-log.md` | How the prompt was refined across versions |
 
 ## Try it yourself
 
 1. Copy the contents of `system-prompt.md` into your LLM's system prompt field
-2. Paste the comments from `sample-input.md` as the user message
-3. Verify the output matches the expected results in the system prompt
-4. The template works with any LLM (Claude, GPT-4, Gemini, etc.)
+2. Paste the comments from `sample-input.md` as the user message or use them as inspiration
+3. Verify the output matches the expected results (`expected-output.md`)
 
 ## Key Techniques Used
 
