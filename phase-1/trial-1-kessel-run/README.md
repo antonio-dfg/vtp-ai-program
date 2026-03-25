@@ -1,4 +1,4 @@
-# Trial 1: The "Kessel Run" — Few-Shot Prompting & Sarcasm Detection
+# Trial 1: The "Kessel Run" — Few-Shot Prompting & Sarcasm Detection 🤖
 
 ## Objective
 
@@ -16,7 +16,7 @@ not literal word choice.
 | `expected-output.md` | Expected AI output for verification |
 | `iteration-log.md` | How the prompt was refined across versions |
 
-## Try it yourself
+## Try it yourself 🚀
 
 1. Copy the contents of [system-prompt.md](https://github.com/antonio-dfg/vtp-ai-program/blob/main/phase-1/trial-1-kessel-run/artifacts/system-prompt.md) into your LLM's system prompt field or add it to your message
 2. Paste the comments from [sample-input.md](https://github.com/antonio-dfg/vtp-ai-program/blob/main/phase-1/trial-1-kessel-run/artifacts/sample-input.md) as the user message or use them as inspiration
