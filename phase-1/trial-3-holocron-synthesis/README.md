@@ -1,8 +1,5 @@
 # Trial 3: The "Holocron" Synthesis — Chain-of-Thought & Data Extraction
 
-> Focus: Chain-of-Thought and Data Extraction
-> Goal: Prove the AI can maintain logic through a multi-step "Chain-of-Thought"
-
 ## Objective
 
 Provide the AI with a long, messy piece of text (meeting transcript) and extract:
