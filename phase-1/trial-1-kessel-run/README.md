@@ -1,4 +1,4 @@
-# Trial 1: The "Kessel Run" — Few-Shot Prompting & Sarcasm Detection 🤖
+#  Trial 1: The "Kessel Run" (Few-Shot Prompting & Sarcasm Detection)
 
 ## Objective
 
