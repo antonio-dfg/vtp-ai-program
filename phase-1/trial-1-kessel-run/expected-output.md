@@ -10,7 +10,7 @@
 | # | Comment (excerpt) | Sentiment | Department | Urgency | Reasoning |
 |---|---|---|---|---|---|
 | 1 | New coffee machine brilliant | Positive | Facilities | Low | Genuine praise, no sarcasm indicators |
-| 2 | Loved waiting 30 min for bus | **Negative** | Transport/Logistics | Medium | **SARCASM** — "Oh great" + "loved" contradict the negative wait experience |
+| 2 | Loved waiting 45 min for bus | **Negative** | Transport/Logistics | Medium | **SARCASM** — "Oh great" + "loved" contradict the negative wait experience |
 | 3 | More recycling bins | Neutral | Facilities | Low | Polite request, no strong sentiment |
 | 4 | Mentorship program, first deal | Positive | HR | Low | Genuine positive outcome with specific metric |
 | 5 | 5 days to replace monitor | Negative | IT Support | High | Frustrated tone, emphasis on delay |
