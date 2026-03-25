@@ -15,7 +15,7 @@ not literal word choice.
 | `sample-input.md` | 10 customer feedback comments used for testing |
 | `iteration-log.md` | How the prompt was refined across versions |
 
-## How to Use
+## Try it yourself
 
 1. Copy the contents of `system-prompt.md` into your LLM's system prompt field
 2. Paste the comments from `sample-input.md` as the user message
