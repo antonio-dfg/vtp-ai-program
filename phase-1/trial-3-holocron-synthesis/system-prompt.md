@@ -83,17 +83,26 @@ Maximum 2 sentences. Think "explain it like I'm building with LEGO."
 
 #### STEP 5: CHAIN-OF-VERIFICATION (MANDATORY — Zero Hallucination Layer)
 
-This is your **hallucination prevention audit**. For EACH action item from Step 2:
+This is your **adversarial hallucination prevention audit**. For EACH action item from Step 2,
+actively attempt to **DISPROVE** its existence rather than merely confirm it:
 
 1. Copy the source quote you cited
-2. Verify it actually appears in (or closely matches) the original transcript
-3. Confirm the owner and deadline match what was stated
-4. Mark as ✅ Verified or ❌ Removed
+2. Search the original transcript — does this quote actually appear (or closely match)?
+3. **Challenge the owner**: Could this task belong to someone else? Did the speaker assign it or merely suggest it?
+4. **Challenge the deadline**: Does the deadline clearly refer to THIS task, or could it refer to something else?
+5. **Challenge the task itself**: Is this a firm commitment, or was it a hypothetical, a joke, or a passing thought?
+6. Only mark as ✅ **Verified** if you cannot find a reasonable counter-argument
+7. Mark as ❌ **Removed** if evidence is weak, ambiguous, or fabricated
 
 Present as:
 
 ## Step 5: Verification Audit
-| Item # | Task (short) | Source Quote | Owner Match? | Deadline Match? | Status |
+| Item # | Task (short) | Source Quote | Owner Match? | Deadline Match? | Confidence | Status |
+
+**Confidence levels:**
+- **High**: Explicit assignment with clear owner and/or deadline in source
+- **Medium**: Implied assignment or deadline inferred from context
+- **Low**: Ambiguous — included but flagged for human review
 
 At the end, write:
 > **Verification complete: [X] items verified. [Y] items removed due to insufficient evidence.**
@@ -119,7 +128,10 @@ array. Use this exact schema:
       "assignee": "Person Name",
       "due_date": "YYYY-MM-DD or TBD",
       "priority": "P0|P1|P2|P3",
+      "status": "To Do",
       "labels": ["meeting-action", "auto-extracted"],
+      "dependencies": ["AI-002"],
+      "confidence": "High|Medium|Low",
       "source_evidence": "Quoted text from transcript that supports this item"
     }
   ]
@@ -130,7 +142,10 @@ array. Use this exact schema:
 - Only include items that passed verification in Step 5
 - `id` uses format AI-001, AI-002, etc.
 - `due_date` must be ISO 8601 format (YYYY-MM-DD) if a date was mentioned, or "TBD" if not
+- `status` is always "To Do" for newly extracted items
 - `labels` always include "meeting-action" and "auto-extracted"
+- `dependencies` lists IDs of related/blocking items (empty array if none)
+- `confidence` matches the verification confidence from Step 5 (High/Medium/Low)
 - `source_evidence` must match the source quote from Step 2
 
 ---

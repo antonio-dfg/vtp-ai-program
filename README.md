@@ -56,6 +56,40 @@ flag it as a "Negative" sentiment despite the word "loved."
 
 **Goal:** Prove the AI can maintain logic through a multi-step "Chain-of-Thought".
 
+---
+
+## Cross-Trial Architecture — How the Techniques Build
+
+The three trials are not isolated exercises — they form a **progressive skill ladder** where each trial builds on the reasoning patterns established by the previous one:
+
+```
+Trial 1: CLASSIFY + EXPLAIN    →  Trial 2: GENERATE + SELF-CHECK    →  Trial 3: EXTRACT + VERIFY + EXPORT
+(AI must explain decisions)        (AI must police its own output)       (AI must chain reasoning & prove it)
+```
+
+### Shared Architectural Patterns
+
+| Pattern | Trial 1 | Trial 2 | Trial 3 |
+|---|---|---|---|
+| **Forced Reasoning** | Reasoning column explains every classification | Replacement guidance forces alternatives | Source Quote field traces every action item |
+| **Self-Verification** | Re-read + confirm sarcasm is flagged as Negative | Scan output against banned word list | Chain-of-Verification audits every extracted item |
+| **Structured Output** | Markdown table + Sarcasm Audit section | Context → Problem → Intervention → Outcome | 6-step pipeline → JSON export |
+| **Adversarial Robustness** | Sarcasm traps test detection accuracy | Buzzword-attracting topics test constraint enforcement | Hallucinated items test verification layer rejection |
+
+### Cross-Pollination Opportunities
+
+- **Trial 3's verification technique applied to Trial 1**: Verify sarcasm detections by requiring the AI to quote the specific words that triggered the sarcasm flag — not just explain, but cite evidence from the comment itself.
+- **Trial 2's self-check applied to Trial 3**: After generating the JSON export, run a constraint scan to verify no action items were fabricated (similar to scanning for banned words).
+- **Trial 1's confidence calibration applied to Trial 3**: The verification audit now includes confidence levels (High/Medium/Low), directly borrowed from Trial 1's sarcasm confidence scoring.
+
+### Key Insight
+
+The progression from Trial 1 → 3 mirrors a real-world pipeline: **classify data → enforce quality constraints → build production systems with verification layers**. Each trial adds one more layer of rigor to the AI's reasoning process.
+
+> See [`PRINCIPLES.md`](PRINCIPLES.md) for the prompt engineering methodology distilled from all three trials.
+
+---
+
 # Phase 2 - The Agentic Shift 🔜
 Creating and training custom, role-specific agents.
 
