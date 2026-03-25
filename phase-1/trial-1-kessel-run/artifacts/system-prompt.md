@@ -93,4 +93,26 @@ After generating the table, re-read each comment and confirm:
 - Perform a final scan and append:
 "✅ Verification: [N] sarcastic comments detected!"
 
+### CSV Export Block
+
+After the Self-Verification Step, output the results as a CSV block so they can be
+logged to a persistent results file. Use **exactly** this format — no extra spaces,
+no markdown inside the block:
+
+```csv
+comment_number,comment_excerpt,sentiment,department,urgency,sarcasm_detected,confidence,reasoning
+```
+
+Rules for the CSV block:
+- `comment_number` — the row number (1–10 or however many comments)
+- `comment_excerpt` — first 6 words of the comment, no commas (replace with semicolons if needed)
+- `sentiment` — Positive / Negative / Neutral / Mixed
+- `department` — department name (no commas)
+- `urgency` — Low / Medium / High / Critical
+- `sarcasm_detected` — TRUE or FALSE
+- `confidence` — only for sarcasm rows: High / Medium / Low; leave blank otherwise
+- `reasoning` — one sentence, no commas (replace with semicolons if needed)
+
+Wrap the block in triple backticks with the `csv` language tag as shown above.
+
 --- END BLOCK ---
