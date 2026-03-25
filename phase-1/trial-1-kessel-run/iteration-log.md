@@ -8,7 +8,7 @@ This log documents how the prompt was refined to achieve reliable sarcasm detect
 
 **What I tried:** Simple instruction: "Categorize these comments by sentiment, department, and urgency."
 
-**Result:** The AI classified Comment 2 ("I loved waiting 40 minutes") as **Positive** because
+**Result:** The AI classified Comment 2 ("I loved waiting 45 minutes") as **Positive** because
 it latched onto the word "loved" without considering context.
 
 **Lesson:** LLMs default to literal interpretation. Sarcasm detection needs to be explicitly requested.
