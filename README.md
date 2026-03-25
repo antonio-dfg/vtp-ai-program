@@ -14,7 +14,7 @@
 # Phase 1 - The Augmentation Era
 Personal productivity and individual task automation.
 
-## Trial 1 - The "Kessel Run" (Few-Shot Prompting and Formatting)
+## [Trial 1 - The "Kessel Run"](https://github.com/antonio-dfg/vtp-ai-program/tree/main/phase-1/trial-1-kessel-run) (Few-Shot Prompting and Formatting)
 
 **The Logic Mindset:** Participants are expected to develop **probabilistic reasoning** and **pattern recognition** skills, learning to anticipate how LLMs interpret linguistic nuances like sarcasm or conflicting sentiment markers.
 
@@ -32,7 +32,7 @@ flag it as a "Negative" sentiment despite the word "loved."
 
 **Goal:** Mastery of pattern recognition and nuance.
 
-## Trial 2 - The "Architect" Constraint (Precision and Negative Prompting)
+## [Trial 2 - The "Architect" Constraint](https://github.com/antonio-dfg/vtp-ai-program/tree/main/phase-1/trial-2-architect-constraint) (Precision and Negative Prompting)
 
 **The Logic Mindset:** Participants must develop **architectural foresight** and **deterministic reasoning**. You are expected to move beyond simple troubleshooting to design a logic-gate system that can evaluate its own actions against safety protocols before execution.
 
@@ -44,7 +44,7 @@ flag it as a "Negative" sentiment despite the word "loved."
 
 **Goal:** Achieve a professional tone without relying on corporate clichés.
 
-## Trial 3 - The "Holocron" Synthesis (Chain-of-Thought and Data Extraction)
+## [Trial 3 - The "Holocron" Synthesis](https://github.com/antonio-dfg/vtp-ai-program/tree/main/phase-1/trial-3-holocron-synthesis) (Chain-of-Thought and Data Extraction)
 
 **The Logic Mindset:** Participants must develop **high-order synthesis** and **structural reasoning**. You will learn to guide the AI through a hierarchical extraction process, ensuring that complex data is not just summarized, but logically restructured for different audience personas without losing core technical integrity.
 
