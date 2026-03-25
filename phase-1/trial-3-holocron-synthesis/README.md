@@ -21,7 +21,7 @@ and exports action items as **JSON importable into Jira/Linear**.
 | `export.json` | Jira/Linear-compatible JSON export of action items |
 | `iteration-log.md` | How the prompt was refined, including hallucination catches |
 
-## How to Use
+## Try it yourself
 
 1. Copy the system prompt from `system-prompt.md` into your LLM
 2. Paste ANY meeting transcript or messy report as the user message
