@@ -46,6 +46,16 @@ flag it as a "Negative" sentiment despite the word "loved."
 
 ## Trial 3 - The "Holocron" Synthesis (Chain-of-Thought and Data Extraction)
 
+**The Logic Mindset:** Participants must develop **high-order synthesis** and **structural reasoning**. You will learn to guide the AI through a hierarchical extraction process, ensuring that complex data is not just summarized, but logically restructured for different audience personas without losing core technical integrity.
+
+**The Task:** Provide the AI with a long, "messy" piece of text (like a raw transcript of a 30-minute meeting or a 5-page industry report).
+
+**The Challenge:**
+- Step-by-Step: Tell the AI: "First, identify the 3 biggest risks. Second, create a table of action items. Third, write a 2 sentence summary for an executive who has 10 seconds to read it."
+- Variable Tone: Ask it to rewrite the final summary twice: once for a technical engineer and once for a five-year-old.
+
+**Goal:** Prove the AI can maintain logic through a multi-step "Chain-of-Thought".
+
 # Phase 2 - The Agentic Shift 🔜
 Creating and training custom, role-specific agents.
 
