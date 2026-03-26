@@ -20,6 +20,7 @@ and exports action items as **JSON importable into Jira/Linear**.
 | `sample-output.md` | Full AI output across all 6 steps with verification audit |
 | `export.json` | Jira/Linear-compatible JSON export of action items |
 | `iteration-log.md` | How the prompt was refined, including hallucination catches |
+| `runbook.md` | Step-by-step guide to test each prompt version |
 
 ## Try it yourself 🚀
 
@@ -27,6 +28,8 @@ and exports action items as **JSON importable into Jira/Linear**.
 2. Paste ANY meeting transcript or messy report as the user message
 3. The AI will process it through all 6 steps automatically
 4. Copy the JSON from Step 6 and import into Jira, Linear, or Trello
+
+To understand the full prompt evolution, follow the [runbook](https://github.com/antonio-dfg/vtp-ai-program/blob/main/phase-1/trial-3-holocron-synthesis/artifacts/runbook.md).
 
 ## Key Techniques Used
 
