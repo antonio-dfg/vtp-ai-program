@@ -1,4 +1,5 @@
 # CLAUDE.md
+<!-- dummy change to test PR flow -->
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
