@@ -22,5 +22,5 @@
 
 ## Expected Sarcasm Audit
 
-- **Comment 2**: "loved" is used sarcastically. The experience described (30-min wait in rain) is objectively negative. Confidence: **High (95%)** — Multiple indicators: exaggerated positive ("Oh great", "loved") + negative situation (waiting in rain) + exclamation mark emphasis.
+- **Comment 2**: "loved" is used sarcastically. The experience described (45-min wait in rain) is objectively negative. Confidence: **High (95%)** — Multiple indicators: exaggerated positive ("Oh great", "loved") + negative situation (waiting in rain) + exclamation mark emphasis.
 - **Comment 7**: "Absolutely wonderful" and "Really love" are ironic. Heating failure in January is clearly negative. Confidence: **High (98%)** — Multiple indicators: exaggerated praise ("Absolutely wonderful", "Really love") + negative situation (heating broke, shivering) + repetition of sarcastic pattern.
