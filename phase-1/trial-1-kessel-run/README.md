@@ -15,12 +15,15 @@ not literal word choice.
 | `sample-input.md` | 10 customer feedback comments used for testing |
 | `expected-output.md` | Expected AI output for verification |
 | `iteration-log.md` | How the prompt was refined across versions |
+| `runbook.md` | Step-by-step guide to test each prompt version |
 
 ## Try it yourself 🚀
 
 1. Copy the contents of [system-prompt.md](https://github.com/antonio-dfg/vtp-ai-program/blob/main/phase-1/trial-1-kessel-run/artifacts/system-prompt.md) into your LLM's system prompt field or add it to your message
 2. Paste the comments from [sample-input.md](https://github.com/antonio-dfg/vtp-ai-program/blob/main/phase-1/trial-1-kessel-run/artifacts/sample-input.md) as the user message or use them as inspiration
 3. Verify the output against the expected results ([expected-output.md](https://github.com/antonio-dfg/vtp-ai-program/blob/main/phase-1/trial-1-kessel-run/artifacts/expected-output.md))
+
+To understand the full prompt evolution, follow the [runbook](https://github.com/antonio-dfg/vtp-ai-program/blob/main/phase-1/trial-1-kessel-run/artifacts/runbook.md).
 
 ## Key Techniques Used
 
