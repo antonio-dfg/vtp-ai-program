@@ -14,12 +14,15 @@ while applying **negative prompting** — the output cannot contain the words:
 | `negative-constraint-list.md` | Living document of banned buzzwords (expandable by the team) |
 | `sample-output.md` | Example AI output that passes all constraints |
 | `iteration-log.md` | How the prompt was refined to reliably enforce constraints |
+| `runbook.md` | Step-by-step guide to test each prompt version |
 
 ## Try it yourself 🚀
 1. Copy the system prompt from `system-prompt.md` into your LLM
 2. Provide any drafting task as the user message (proposal, report, email, etc.)
 3. The filter will automatically strip corporate jargon while maintaining a professional tone
 4. To ban new words, add them to `negative-constraint-list.md` and update the system prompt
+
+To understand the full prompt evolution, follow the [runbook](https://github.com/antonio-dfg/vtp-ai-program/blob/main/phase-1/trial-2-architect-constraint/artifacts/runbook.md).
 
 ## Key Techniques Used
 
